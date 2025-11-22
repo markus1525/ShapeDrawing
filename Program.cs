@@ -16,7 +16,7 @@ public class Program
 
     public static void Main()
     {
-        Window window = new Window("Shape Drawer - Multiple Shape Kinds", 800, 600);
+        Window window = new Window("Shape Drawing - Final Custom Program", 800, 600);
 
         // Create a new Drawing object
         Drawing myDrawing = new Drawing();
