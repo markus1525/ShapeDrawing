@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/minthukyawkhaung/Documents/Sem2/OOP/final/Custom Program/ShapeDrawer/ShapeDrawer.csproj": {}
+    "/Users/minthukyawkhaung/Documents/Sem2/OOP/final/Custom Program/ShapeDrawing /ShapeDrawer.csproj": {}
   },
   "projects": {
-    "/Users/minthukyawkhaung/Documents/Sem2/OOP/final/Custom Program/ShapeDrawer/ShapeDrawer.csproj": {
+    "/Users/minthukyawkhaung/Documents/Sem2/OOP/final/Custom Program/ShapeDrawing /ShapeDrawer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/minthukyawkhaung/Documents/Sem2/OOP/final/Custom Program/ShapeDrawer/ShapeDrawer.csproj",
+        "projectUniqueName": "/Users/minthukyawkhaung/Documents/Sem2/OOP/final/Custom Program/ShapeDrawing /ShapeDrawer.csproj",
         "projectName": "ShapeDrawer",
-        "projectPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/final/Custom Program/ShapeDrawer/ShapeDrawer.csproj",
+        "projectPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/final/Custom Program/ShapeDrawing /ShapeDrawer.csproj",
         "packagesPath": "/Users/minthukyawkhaung/.nuget/packages/",
-        "outputPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/final/Custom Program/ShapeDrawer/obj/",
+        "outputPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/final/Custom Program/ShapeDrawing /obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/minthukyawkhaung/.nuget/NuGet/NuGet.Config"
