@@ -212,6 +212,30 @@ public class Program
                 SplashKit.DrawText(statusMessage, Color.Red, xPosition, yPosition);
             }
 
+            // Draw instructions box in top-right corner
+            int boxX = 580;
+            int boxY = 10;
+            int boxWidth = 210;
+            int boxHeight = 235;
+
+            // Draw semi-transparent background box
+            SplashKit.FillRectangle(Color.RGBAColor(255, 255, 255, 200), boxX, boxY, boxWidth, boxHeight);
+            SplashKit.DrawRectangle(Color.Black, boxX, boxY, boxWidth, boxHeight);
+
+            // Draw instructions text
+            SplashKit.DrawText("CONTROLS", Color.Black, "Arial", 14, boxX + 60, boxY + 8);
+            SplashKit.DrawText("R - Rectangle", Color.Black, boxX + 10, boxY + 30);
+            SplashKit.DrawText("C - Circle", Color.Black, boxX + 10, boxY + 48);
+            SplashKit.DrawText("L - Line", Color.Black, boxX + 10, boxY + 66);
+            SplashKit.DrawText("N - Random Shapes", Color.Black, boxX + 10, boxY + 84);
+            SplashKit.DrawText("M - Draw Letter M", Color.Black, boxX + 10, boxY + 102);
+            SplashKit.DrawText("F - Draw Full Name", Color.Black, boxX + 10, boxY + 120);
+            SplashKit.DrawText("K - Change Colors", Color.Black, boxX + 10, boxY + 138);
+            SplashKit.DrawText("D - Scale Down", Color.Black, boxX + 10, boxY + 156);
+            SplashKit.DrawText("S - Save", Color.Black, boxX + 10, boxY + 174);
+            SplashKit.DrawText("O - Load", Color.Black, boxX + 10, boxY + 192);
+            SplashKit.DrawText("Space - Background", Color.Black, boxX + 10, boxY + 210);
+
             SplashKit.RefreshScreen();
 
         } while (!window.CloseRequested);
